@@ -670,7 +670,8 @@ body {
 
 .services_row {
 	display: flex;
-	justify-content: space-between;
+	
+	justify-content:center;align-items: center;
 		@media (max-width:800px){
 			flex-direction:column;
 		}
