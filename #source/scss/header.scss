@@ -43,6 +43,7 @@
 }
 .menu__header {
 	display: flex;
+	flex-wrap:nowrap;
 		@media (max-width: 690px){
 			position: absolute;
 			opacity: 0;
@@ -134,7 +135,7 @@
 	padding: 0px 15px 0px 25px;
 		&:before{
 			cursor: pointer;
-			background: url('../../img/header/up.png') 0 0 no-repeat;
+			background: url('../img/header/up.png') 0 0 no-repeat;
 			position: absolute;
 			top: 1px;
 			right: 0px;
@@ -144,7 +145,7 @@
 		}
 		&:after{
 			cursor: pointer;
-			background: url('../../img/header/down.png') 0 0 no-repeat;
+			background: url('../img/header/down.png') 0 0 no-repeat;
 			position: absolute;
 			right: 0px;
 			bottom: -2px;
@@ -195,16 +196,16 @@
 	}
 }
 .list-action1{
-	background: url('../../img/header/action_menu/1.png') 30px 5px no-repeat;
+	background: url('../img/header/action_menu/1.png') 30px 5px no-repeat;
 }
 .list-action2{
-	background: url('../../img/header/action_menu/2.png') 30px 3px no-repeat;
+	background: url('../img/header/action_menu/2.png') 30px 3px no-repeat;
 }
 .list-action3{
-	background: url('../../img/header/action_menu/3.png') 33px 5px no-repeat;
+	background: url('../img/header/action_menu/3.png') 33px 5px no-repeat;
 }
 .list-action4{
-	background: url('../../img/header/action_menu/4.png') 28px 3px no-repeat;
+	background: url('../img/header/action_menu/4.png') 28px 3px no-repeat;
 }
 .menu {}
 .menu__icon {}
